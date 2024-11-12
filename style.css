@@ -1,0 +1,148 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1443c5;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    color: #ccc;
+}
+
+/* Filtros */
+.filtros {
+    padding: 20px;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+.filtro-categorias select {
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Promoções */
+.promocoes {
+    padding: 30px;
+}
+
+.grid-promocoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.promocao {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.promocao img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.promocao h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.promocao .descricao {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.promocao .preco {
+    font-size: 1.2em;
+    color: #ad0404;
+    margin: 10px 0;
+}
+
+.preco-antigo {
+    font-size: 0.8em;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.btn-cupom, .btn-comprar, .btn-favoritar {
+    margin: 5px 0;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-cupom {
+    background-color: #ff8000;
+}
+
+.btn-comprar {
+    background-color: #1f88ff;
+    text-decoration: none;
+}
+
+.btn-favoritar {
+    background-color: transparent;
+    color: #ad0404;
+    font-size: 1.5em;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .social a:hover {
+    color: #ccc;
+}
